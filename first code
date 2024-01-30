@@ -1,0 +1,6 @@
+let gamenum = 20;
+let usernum = prompt("Guess the number;");
+while(usernum != gamenum){
+    usernum = prompt("try again :");
+}
+console.log("you entered right number");
